@@ -30,7 +30,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 /** Recursively traverse a directory and attempt to parse all of its proto files. */
 public final class ParsingTester {
   /** Directory under which to search for protos. Change as needed. */
-  private static final Path ROOT = Paths.get("/path/to/protos");
+  private static final Path ROOT = Paths.get("/Users/jw/dev/square/cash/app/src/protos/all-protos");
 
   public static void main(String... args) throws IOException {
     final AtomicLong total = new AtomicLong();
